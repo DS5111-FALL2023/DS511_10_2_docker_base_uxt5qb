@@ -20,12 +20,12 @@ interbash:
 # login to dockerhub
 .PHONY: login
 login:
-	docker login -u "DOCKER_USER"
+	docker login -u "kyler1618" -p "Phi#112358132134"
 
 # now push your image to dockerhub
 .PHONY: push
 push:
-	docker push <DOCKER_USER>/<DOCKER_REPO>:latest
+	docker push "kyler1618/lab_10_2:latest"
 
 
 
